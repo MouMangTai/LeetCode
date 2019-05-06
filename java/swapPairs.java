@@ -1,4 +1,9 @@
 package 算法;
+class ListNode {
+int val;
+ListNode next;
+ListNode(int x) { val = x; }
+ }
 public class swapPairs {
 	public ListNode swapPairs(ListNode head) {
 		if(head==null||head.next==null) return head;
